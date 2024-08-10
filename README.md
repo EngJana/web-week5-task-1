@@ -17,16 +17,19 @@ A simple web application that converts text to speech using Python, Flask, and g
 ## Installation
 1- Create and activate a virtual environment (optional but recommended): This isolates project dependencies:
 
-bash
+```bash
 python -m venv venv
+```
 
 Windows:
-bash
+```bash
 venv\Scripts\activate
+```
 
 2- Install the required packages: Install Flask and gTTS using pip:
-bash
+```bash
 pip install Flask gTTS
+```
 
 3- Create the static directory: Ensure a static folder exists to store generated audio files.
 
